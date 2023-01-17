@@ -60,5 +60,6 @@
             @endforeach
         </tbody>
     </table>
+    {{ $projects->links('vendor.pagination.bootstrap-5') }}
     @include('partials.admin.modal-delete')
 @endsection
